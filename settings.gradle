@@ -1,0 +1,5 @@
+rootProject.name = 'framework-benchmarks'
+include 'undertow-http1'
+include 'core'
+include 'tomcat8-http1'
+

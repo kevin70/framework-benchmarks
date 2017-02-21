@@ -1,0 +1,5 @@
+project(':undertow-http1') {
+    dependencies {
+        compile 'org.springframework.boot:spring-boot-starter-undertow:1.5.1.RELEASE'
+    }
+}
