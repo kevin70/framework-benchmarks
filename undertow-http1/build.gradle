@@ -1,5 +1,10 @@
 project(':undertow-http1') {
+
     dependencies {
-        compile 'org.springframework.boot:spring-boot-starter-undertow:1.5.1.RELEASE'
+        compile project(':core')
+        compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}") {
+            exclude group: 'org.springframework.boot', module: 'spring-boot-starter-tomcat'
+        }
+        compile "org.springframework.boot:spring-boot-starter-undertow:${springBootVersion}"
     }
 }

@@ -1,6 +1,9 @@
 project(':core') {
     dependencies {
         compile 'org.springframework:spring-webmvc:4.3.6.RELEASE'
+        compile 'org.springframework:spring-jdbc:4.3.6.RELEASE'
+        compile "org.springframework.boot:spring-boot:${springBootVersion}"
         compile 'com.zaxxer:HikariCP:2.6.0'
+        compile 'org.mariadb.jdbc:mariadb-java-client:1.5.8'
     }
 }

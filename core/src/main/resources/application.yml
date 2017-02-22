@@ -1,0 +1,11 @@
+hikari:
+  data-source:
+    data-source-class-name: 	org.mariadb.jdbc.MySQLDataSource
+    jdbc-url: jdbc:mysql://192.168.1.120:3306/fw_benchmarks?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    auto-commit: false
+    connection-timeout: 10000
+    idle-timeout: 600000
+#    minimum-idle: 256
+#    maximum-pool-size: 256
